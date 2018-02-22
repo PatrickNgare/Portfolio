@@ -2,4 +2,29 @@
 
 {% block content %}
 {{bock.super}}
+
+
+
+<div class="card">
+    
+    <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+                <a href="#">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+    </div>
+    <div class="card-body">
+        <!--Title-->
+        <h3 class="card-title">{{ project.title }}</h3>
+        
+        <!--Text-->
+        <p class="card-text">{{project.details}}</p>
+        <a href="#" class="btn btn-primary">See More</a>
+    </div>
+
+</div>
+
+
+
+
 {% endblock %}
